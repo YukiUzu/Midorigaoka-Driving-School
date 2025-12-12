@@ -2304,9 +2304,15 @@
   height: 88px;
   width: calc(100% - 100px);
   background: #fff;
+  display: flex;
+  justify-content: flex-end;
 }
 #header .sec-inner {
   display: flex;
+  margin-left: auto;
+  margin-right: 0;
+  width: 100%;
+  max-width: 1655px;
 }
 #header .sec-logo {
   max-width: 192px;
@@ -2336,15 +2342,13 @@
 }
 #header .sec-list-2 .list-item.i-1 {
   max-width: 160px;
-  background: #64B5E7;
+  background: #00C4BB;
 }
 #header .sec-list-2 .list-item.i-2 {
   max-width: 160px;
-  background: linear-gradient(to right, #64B5E7, #00C4BB);
 }
 #header .sec-list-2 .list-item.i-3 {
   max-width: 180px;
-  background: linear-gradient(to right, #00A29A, #00C4BB);
 }
 #header .sec-list-2 .list-item .icon {
   width: 24px;
