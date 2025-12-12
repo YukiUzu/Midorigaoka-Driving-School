@@ -2295,4 +2295,56 @@
 .align-center {
   display: flex;
   align-items: center !important;
+}
+
+#header {
+  position: fixed;
+  left: 100px;
+  top: 0;
+  height: 88px;
+  width: calc(100% - 100px);
+  background: #fff;
+}
+#header .sec-inner {
+  display: flex;
+}
+#header .sec-logo {
+  max-width: 192px;
+}
+#header .sec-list-1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 881px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 0 24px;
+}
+#header .sec-list-2 {
+  display: flex;
+}
+#header .sec-list-2 .list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 10px;
+  padding: 10px;
+  width: 100%;
+  max-width: 182px;
+}
+#header .sec-list-2 .list-item.i-2, #header .sec-list-2 .list-item.i-3 {
+  max-width: 160px;
+  background: #64B5E7;
+}
+#header .sec-list-2 .list-item .icon {
+  width: 24px;
+}
+#header .sec-list-2 .list-item .text {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#mv {
+  margin-top: 100px;
 }/*# sourceMappingURL=common.css.map */

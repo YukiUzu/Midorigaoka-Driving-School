@@ -1,0 +1,57 @@
+#header{
+  position: fixed;
+  left: 100px;
+  top: 0;
+  height: 88px;
+  width: calc(100% - 100px);
+  background: #fff;
+
+  .sec-inner{
+    display: flex;
+
+  }
+  .sec-logo{
+    max-width: 192px;
+  }
+  .sec-list-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 881px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0 24px;
+  }
+  .sec-list-2{
+    display: flex;
+   
+    .list-item{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0 10px;
+      padding: 10px;
+      width: 100%;
+      max-width: 182px;
+
+      &.i-2, &.i-3{
+        max-width: 160px;
+        background: $main_color;
+      }
+
+      .icon{
+        width: 24px;
+
+      }
+      .text{
+        font-size: 16px;
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+#mv{
+  margin-top: 100px;
+}
